@@ -1,0 +1,17 @@
+# 核心依赖（已验证可用）
+pynput>=1.7
+pywinauto>=0.6.9
+pyttsx3>=2.90
+mss>=9.0
+Pillow>=10.0
+psutil>=5.9
+requests>=2.31
+rapidocr-onnxruntime>=1.2
+pystray>=0.19
+
+# 可选：更自然的在线发音（TTS_ENGINE="edge" 时需要）
+# edge-tts>=6.1
+# playsound==1.2.2
+
+# 可选：完全离线翻译（TRANSLATE_ENGINE="offline_argos" 时需要）
+# argostranslate>=1.9

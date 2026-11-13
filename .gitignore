@@ -1,0 +1,27 @@
+# ---- 构建产物（体积大，不放源码仓库，通过 Release 分发） ----
+build/
+dist/
+*.spec
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 运行时生成 ----
+debug.log
+cache.json
+build_run.log
+run_err.txt
+
+# ---- 临时/诊断脚本 ----
+diag.py
+test_now.py
+
+# ---- 系统/编辑器 ----
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
